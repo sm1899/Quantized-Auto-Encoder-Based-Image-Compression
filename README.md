@@ -99,10 +99,10 @@ This implementation is based on the following papers:
 - Wang, B., & Lo, K.-T. (2024). Autoencoder-based joint image compression and encryption. Journal of Information Security and Applications, 80, 103680. https://doi.org/10.1016/j.jisa.2023.103680
 
 ## Authors
--Sougata Moi (M23MAC008)
--Mitesh Kumar (M23MAC004)
--Niraj Singha (M23MAC005)
--Ratnesh Kumar Tiwari (M23MAC011)
+- Sougata Moi (M23MAC008)
+- Mitesh Kumar (M23MAC004)
+- Niraj Singha (M23MAC005)
+- Ratnesh Kumar Tiwari (M23MAC011)
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
