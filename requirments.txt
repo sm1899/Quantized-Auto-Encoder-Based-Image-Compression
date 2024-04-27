@@ -1,0 +1,9 @@
+torch
+torchvision
+scikit-learn
+scikit-image
+pillow
+tqdm
+numpy
+opencv-python
+arithmetic-compressor
