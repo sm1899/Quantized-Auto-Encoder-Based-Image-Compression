@@ -40,7 +40,6 @@ The script will train the auto-encoder model, saving the weights every 5 epochs 
 2. Run the `test.py` script:
    ```
    python test.py
-
    ```
 This script will:
 
@@ -57,7 +56,6 @@ This script will:
 4. Run the `metrics.py` script:
    ```
    python metrics.py
-
    ```
 This script will:
 
