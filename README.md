@@ -27,6 +27,7 @@ pip install -r requirements.txt
 2. Update the paths in the `train.py` script to point to your dataset directories.
 3. Adjust the hyperparameters (e.g., batch size, learning rate, quantization bits) as needed.
 4. Run the training script:
+
   ```
   python train.py
   ```
@@ -38,8 +39,9 @@ The script will train the auto-encoder model, saving the weights every 5 epochs 
 
 1. Place the images you want to compress in the `images` folder.
 2. Run the `test.py` script:
+
    ```
-   python test.py
+    python test.py
    ```
 This script will:
 
@@ -54,6 +56,7 @@ This script will:
 2. Place the output images in the `decompressed_folder` folder.
 3. place the train weights in the weights folder
 4. Run the `metrics.py` script:
+   
    ```
    python metrics.py
    ```
