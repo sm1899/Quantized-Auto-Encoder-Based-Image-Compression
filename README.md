@@ -95,7 +95,7 @@ quantized = quantized.int()
 
 This implementation is based on the following papers:
 
-- Alexandre, D., Chang, C.-P., Peng, W.-H., & Hang, H.-M. (2019). An Autoencoder-based Learned Image Compressor: Description of Challenge Proposal by NCTU. arXiv preprint arXiv:1902.07385.
+- Alexandre, D., Chang, C.-P., Peng, W.-H., & Hang, H.-M. (2019). An Autoencoder-based Learned Image Compressor: Description of Challenge Proposal by NCTU. https://doi.org/10.48550/arXiv.1902.07385
 - Wang, B., & Lo, K.-T. (2024). Autoencoder-based joint image compression and encryption. Journal of Information Security and Applications, 80, 103680. https://doi.org/10.1016/j.jisa.2023.103680
 
 ## Authors
