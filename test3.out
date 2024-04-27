@@ -1,0 +1,39 @@
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet101_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet101_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Encoded shape: torch.Size([4, 2048, 4, 4])
+Decoded shape: torch.Size([4, 3, 256, 256])
+AutoEncoder output shape: torch.Size([4, 3, 256, 256])
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/100], Train Loss: 0.0381
+Validation Loss: 0.0261
+Epoch [2/100], Train Loss: 0.0238
+Validation Loss: 0.0224
+Epoch [3/100], Train Loss: 0.0217
+Validation Loss: 0.0226
+Epoch [4/100], Train Loss: 0.0209
+Validation Loss: 0.0205
+Epoch [5/100], Train Loss: 0.0202
+Traceback (most recent call last):
+  File "/csehome/m23mac008/cvproject/draft.py", line 271, in <module>
+    torch.save(model.state_dict(), f'weights3/autoencoder_{epoch + 1}.pth')
+  File "/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torch/serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torch/serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory weights3 does not exist.
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[21571,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,0 +1,210 @@
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet101_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet101_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Encoded shape: torch.Size([4, 2048, 4, 4])
+Decoded shape: torch.Size([4, 3, 256, 256])
+AutoEncoder output shape: torch.Size([4, 3, 256, 256])
+/opt/ohpc/apps/python/3.10.pytorch/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch [1/100], Train Loss: 0.1482
+Validation Loss: 0.1344
+Epoch [2/100], Train Loss: 0.1310
+Validation Loss: 0.1306
+Epoch [3/100], Train Loss: 0.1280
+Validation Loss: 0.1284
+Epoch [4/100], Train Loss: 0.1266
+Validation Loss: 0.1270
+Epoch [5/100], Train Loss: 0.1255
+Validation Loss: 0.1267
+Epoch [6/100], Train Loss: 0.1245
+Validation Loss: 0.1251
+Epoch [7/100], Train Loss: 0.1238
+Validation Loss: 0.1247
+Epoch [8/100], Train Loss: 0.1232
+Validation Loss: 0.1250
+Epoch [9/100], Train Loss: 0.1227
+Validation Loss: 0.1240
+Epoch [10/100], Train Loss: 0.1220
+Validation Loss: 0.1238
+Epoch [11/100], Train Loss: 0.1215
+Validation Loss: 0.1234
+Epoch [12/100], Train Loss: 0.1210
+Validation Loss: 0.1232
+Epoch [13/100], Train Loss: 0.1205
+Validation Loss: 0.1222
+Epoch [14/100], Train Loss: 0.1194
+Validation Loss: 0.1219
+Epoch [15/100], Train Loss: 0.1176
+Validation Loss: 0.1219
+Epoch [16/100], Train Loss: 0.1139
+Validation Loss: 0.1154
+Epoch [17/100], Train Loss: 0.1086
+Validation Loss: 0.1130
+Epoch [18/100], Train Loss: 0.1038
+Validation Loss: 0.1109
+Epoch [19/100], Train Loss: 0.0999
+Validation Loss: 0.1097
+Epoch [20/100], Train Loss: 0.0967
+Validation Loss: 0.1088
+Epoch [21/100], Train Loss: 0.0938
+Validation Loss: 0.1075
+Epoch [22/100], Train Loss: 0.0917
+Validation Loss: 0.1066
+Epoch [23/100], Train Loss: 0.0894
+Validation Loss: 0.1063
+Epoch [24/100], Train Loss: 0.0876
+Validation Loss: 0.1055
+Epoch [25/100], Train Loss: 0.0856
+Validation Loss: 0.1048
+Epoch [26/100], Train Loss: 0.0841
+Validation Loss: 0.1049
+Epoch [27/100], Train Loss: 0.0826
+Validation Loss: 0.1042
+Epoch [28/100], Train Loss: 0.0813
+Validation Loss: 0.1048
+Epoch [29/100], Train Loss: 0.0803
+Validation Loss: 0.1083
+Epoch [30/100], Train Loss: 0.0797
+Validation Loss: 0.1034
+Epoch [31/100], Train Loss: 0.0782
+Validation Loss: 0.1041
+Epoch [32/100], Train Loss: 0.0772
+Validation Loss: 0.1040
+Epoch [33/100], Train Loss: 0.0764
+Validation Loss: 0.1029
+Epoch [34/100], Train Loss: 0.0756
+Validation Loss: 0.1025
+Epoch [35/100], Train Loss: 0.0748
+Validation Loss: 0.1029
+Epoch [36/100], Train Loss: 0.0741
+Validation Loss: 0.1028
+Epoch [37/100], Train Loss: 0.0733
+Validation Loss: 0.1027
+Epoch [38/100], Train Loss: 0.0726
+Validation Loss: 0.1018
+Epoch [39/100], Train Loss: 0.0721
+Validation Loss: 0.1022
+Epoch [40/100], Train Loss: 0.0714
+Validation Loss: 0.1022
+Epoch [41/100], Train Loss: 0.0708
+Validation Loss: 0.1018
+Epoch [42/100], Train Loss: 0.0702
+Validation Loss: 0.1023
+Epoch [43/100], Train Loss: 0.0696
+Validation Loss: 0.1013
+Epoch [44/100], Train Loss: 0.0699
+Validation Loss: 0.1023
+Epoch [45/100], Train Loss: 0.0691
+Validation Loss: 0.1012
+Epoch [46/100], Train Loss: 0.0679
+Validation Loss: 0.1015
+Epoch [47/100], Train Loss: 0.0675
+Validation Loss: 0.1019
+Epoch [48/100], Train Loss: 0.0671
+Validation Loss: 0.1016
+Epoch [49/100], Train Loss: 0.0668
+Validation Loss: 0.1012
+Epoch [50/100], Train Loss: 0.0666
+Validation Loss: 0.1008
+Epoch [51/100], Train Loss: 0.0660
+Validation Loss: 0.1016
+Epoch [52/100], Train Loss: 0.0657
+Validation Loss: 0.1012
+Epoch [53/100], Train Loss: 0.0654
+Validation Loss: 0.1012
+Epoch [54/100], Train Loss: 0.0649
+Validation Loss: 0.1015
+Epoch [55/100], Train Loss: 0.0646
+Validation Loss: 0.1013
+Epoch [56/100], Train Loss: 0.0642
+Validation Loss: 0.1008
+Epoch [57/100], Train Loss: 0.0640
+Validation Loss: 0.1002
+Epoch [58/100], Train Loss: 0.0636
+Validation Loss: 0.1005
+Epoch [59/100], Train Loss: 0.0632
+Validation Loss: 0.1015
+Epoch [60/100], Train Loss: 0.0631
+Validation Loss: 0.1007
+Epoch [61/100], Train Loss: 0.0626
+Validation Loss: 0.1006
+Epoch [62/100], Train Loss: 0.0622
+Validation Loss: 0.1009
+Epoch [63/100], Train Loss: 0.0620
+Validation Loss: 0.1007
+Epoch [64/100], Train Loss: 0.0617
+Validation Loss: 0.1006
+Epoch [65/100], Train Loss: 0.0617
+Validation Loss: 0.1000
+Epoch [66/100], Train Loss: 0.0611
+Validation Loss: 0.1002
+Epoch [67/100], Train Loss: 0.0610
+Validation Loss: 0.1019
+Epoch [68/100], Train Loss: 0.0611
+Validation Loss: 0.1003
+Epoch [69/100], Train Loss: 0.0603
+Validation Loss: 0.1003
+Epoch [70/100], Train Loss: 0.0605
+Validation Loss: 0.1003
+Epoch [71/100], Train Loss: 0.0601
+Validation Loss: 0.1003
+Epoch [72/100], Train Loss: 0.0596
+Validation Loss: 0.0999
+Epoch [73/100], Train Loss: 0.0593
+Validation Loss: 0.0999
+Epoch [74/100], Train Loss: 0.0591
+Validation Loss: 0.1002
+Epoch [75/100], Train Loss: 0.0591
+Validation Loss: 0.0998
+Epoch [76/100], Train Loss: 0.0589
+Validation Loss: 0.0998
+Epoch [77/100], Train Loss: 0.0585
+Validation Loss: 0.0992
+Epoch [78/100], Train Loss: 0.0582
+Validation Loss: 0.1003
+Epoch [79/100], Train Loss: 0.0581
+Validation Loss: 0.0994
+Epoch [80/100], Train Loss: 0.0581
+Validation Loss: 0.1007
+Epoch [81/100], Train Loss: 0.0589
+Validation Loss: 0.0995
+Epoch [82/100], Train Loss: 0.0578
+Validation Loss: 0.0993
+Epoch [83/100], Train Loss: 0.0572
+Validation Loss: 0.1007
+Epoch [84/100], Train Loss: 0.0617
+Validation Loss: 0.1000
+Epoch [85/100], Train Loss: 0.0578
+Validation Loss: 0.1001
+Epoch [86/100], Train Loss: 0.0565
+Validation Loss: 0.0999
+Epoch [87/100], Train Loss: 0.0562
+Validation Loss: 0.0995
+Epoch [88/100], Train Loss: 0.0560
+Validation Loss: 0.0993
+Epoch [89/100], Train Loss: 0.0559
+Validation Loss: 0.1017
+Epoch [90/100], Train Loss: 0.0567
+Validation Loss: 0.0998
+Epoch [91/100], Train Loss: 0.0560
+Validation Loss: 0.0993
+Epoch [92/100], Train Loss: 0.0556
+Validation Loss: 0.0997
+Epoch [93/100], Train Loss: 0.0555
+Validation Loss: 0.0989
+Epoch [94/100], Train Loss: 0.0556
+Validation Loss: 0.0993
+Epoch [95/100], Train Loss: 0.0554
+Validation Loss: 0.0993
+Epoch [96/100], Train Loss: 0.0551
+Validation Loss: 0.0992
+Epoch [97/100], Train Loss: 0.0550
+Validation Loss: 0.0991
+Epoch [98/100], Train Loss: 0.0548
+Validation Loss: 0.0993
+Epoch [99/100], Train Loss: 0.0549
+Validation Loss: 0.0990
+Epoch [100/100], Train Loss: 0.0547
+Validation Loss: 0.0990
+Training completed
