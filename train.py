@@ -84,11 +84,6 @@ def vgg_loss(vgg: nn.Module,x, x_hat) :
     x_hat_latent = vgg(x_hat)
     return torch.mean(torch.abs(x_latent - x_hat_latent))
 
-import torch
-import torch
-
-import torchvision.models as resnet_models
-import torch.nn as nn
 
 class Encoder(nn.Module):
     def __init__(self, resnet_model_name: str):
