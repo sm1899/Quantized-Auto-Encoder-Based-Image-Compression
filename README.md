@@ -91,6 +91,11 @@ quantized = torch.clamp(vector, 0, 1) * 2 ** B + 0.5
 quantized = quantized.int()
 ```
 
+## Analysis
+
+Check result and detailed report in the report pdf
+
+
 ## Credits
 
 This implementation is inspired by the following papers:
